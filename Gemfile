@@ -13,6 +13,10 @@ gem 'devise'
 gem 'foundation-rails'
 gem 'haml-rails'
 gem 'pg'
+
+# gem 'open-uri'
+gem 'feed-normalizer'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]

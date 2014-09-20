@@ -1,0 +1,9 @@
+.story-list
+  %h2 STORIES
+  =@rss_feed.stories.each do |story|
+    %h4
+      = story.title
+    %p
+      = story.description.html_safe
+    %p
+      = story.urls[0]
